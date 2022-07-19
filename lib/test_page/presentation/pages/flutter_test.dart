@@ -1,8 +1,5 @@
 import 'package:fh_home_app/core/constant/constant.dart';
-import 'package:fh_home_app/text_page/presentation/widgets/button_widget.dart';
-import 'package:fh_home_app/text_page/presentation/widgets/member_card_widget.dart';
-import 'package:fh_home_app/text_page/presentation/widgets/smoke_detector_card_widget.dart';
-import 'package:fh_home_app/text_page/presentation/widgets/water_leak_detector_widget.dart';
+import 'package:fh_home_app/test_page/test_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
@@ -39,6 +36,7 @@ class _FlutterTestPageState extends State<FlutterTestPage> {
         ),
         child: SingleChildScrollView(
           child: SafeArea(
+            left: false,
             child: Column(
               children: [
                 const Gap(13),
